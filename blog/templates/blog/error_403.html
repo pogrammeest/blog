@@ -1,0 +1,13 @@
+{% extends 'blog/base_blog.html' %}
+{% load static %}
+
+
+
+{% block title %}
+    403 Forbidden - {{ block.super }}
+{% endblock %}
+{% block content %}
+    <a href=" {% url 'posts_list_url' %}" style="text-decoration:none; color: #a1a1a1;" class="text-center  mb-5"><h1 class="font-weight-bold">Вернутся</h1></a>
+    <img src="{% static 'img/403.jpg' %}" class="img-fluid" usemap="box"/>
+
+{% endblock %}
