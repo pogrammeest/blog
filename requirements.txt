@@ -1,5 +1,5 @@
 Django==2.2.4
-pip==19.0.3
+pip==21.1
 pytz==2019.2
 six==1.12.0
 sqlparse==0.3.0
